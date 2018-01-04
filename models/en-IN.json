@@ -1,0 +1,229 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "yellow duck",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ITEMS"
+            }
+          ],
+          "samples": [
+            "{Item}",
+            "a {Item}",
+            "an {Item}",
+            "the {Item}",
+            "the sound of a {Item}",
+            "the sound of the {Item}",
+            "a sound of a {Item}",
+            "a sound of the {Item}",
+            "how does {Item} say",
+            "how does a {Item} say",
+            "how does an {Item} say",
+            "how does the {Item} say",
+            "how does {Item} do",
+            "how does a {Item} do",
+            "how does an {Item} do",
+            "how does the {Item} do",
+            "how does {Item} sound",
+            "how does a {Item} sound",
+            "how does an {Item} sound",
+            "how does the {Item} sound",
+            "what does {Item}",
+            "what does a {Item}",
+            "what does an {Item}",
+            "what does the {Item}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "pig",
+              "name": {
+                "value": "pig",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "dog",
+              "name": {
+                "value": "dog",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "cat",
+              "name": {
+                "value": "cat",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "cow",
+              "name": {
+                "value": "cow",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "chicken",
+              "name": {
+                "value": "chicken",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "rooster",
+              "name": {
+                "value": "rooster",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "goose",
+              "name": {
+                "value": "goose",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "duck",
+              "name": {
+                "value": "duck",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "sheep",
+              "name": {
+                "value": "sheep",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "goat",
+              "name": {
+                "value": "goat",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "turkey",
+              "name": {
+                "value": "turkey",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "horse",
+              "name": {
+                "value": "horse",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "mouse",
+              "name": {
+                "value": "mouse",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "donkey",
+              "name": {
+                "value": "donkey",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "owl",
+              "name": {
+                "value": "owl",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "frog",
+              "name": {
+                "value": "frog",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "bee",
+              "name": {
+                "value": "bee",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "whale",
+              "name": {
+                "value": "whale",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "dolphin",
+              "name": {
+                "value": "dolphin",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "elephant",
+              "name": {
+                "value": "elephant",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "hippo",
+              "name": {
+                "value": "hippo",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "hedgehog",
+              "name": {
+                "value": "hedgehog",
+                "synonyms": []
+              }
+            }
+          ],
+          "name": "LIST_OF_ITEMS"
+        }
+      ]
+    }
+  }
+}
