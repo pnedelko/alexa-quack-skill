@@ -1,0 +1,244 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "gelbe ente",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ITEMS"
+            }
+          ],
+          "samples": [
+            "{Item}",
+            "ein {Item}",
+            "eine {Item}",
+            "der {Item}",
+            "die {Item}",
+            "das {Item}",
+            "wie {Item} klingt",
+            "wie ein {Item} klingt",
+            "wie eine {Item} klingt",
+            "wie der {Item} klingt",
+            "wie die {Item} klingt",
+            "wie das {Item} klingt",
+            "wie klingt {Item}",
+            "wie klingt ein {Item}",
+            "wie klingt eine {Item}",
+            "wie klingt der {Item}",
+            "wie klingt die {Item}",
+            "wie klingt das {Item}",
+            "wie macht {Item}",
+            "wie macht ein {Item}",
+            "wie macht eine {Item}",
+            "wie macht der {Item}",
+            "wie macht die {Item}",
+            "wie macht das {Item}",
+            "was macht {Item}",
+            "was macht ein {Item}",
+            "was macht eine {Item}",
+            "was macht der {Item}",
+            "was macht die {Item}",
+            "was macht das {Item}",
+            "welches Geräusch macht ein {Item}",
+            "welches Geräusch macht eine {Item}",
+            "welches Geräusch macht der {Item}",
+            "welches Geräusch macht die {Item}",
+            "welches Geräusch macht das {Item}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "pig",
+              "name": {
+                "value": "Schwein",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "dog",
+              "name": {
+                "value": "Hund",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "cat",
+              "name": {
+                "value": "Katze",
+                "synonyms": [
+                  "Kater"
+                ]
+              }
+            },
+            {
+              "id": "cow",
+              "name": {
+                "value": "Kuh",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "chicken",
+              "name": {
+                "value": "Huhn",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "rooster",
+              "name": {
+                "value": "Hahn",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "goose",
+              "name": {
+                "value": "Gans",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "duck",
+              "name": {
+                "value": "Ente",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "sheep",
+              "name": {
+                "value": "Schaf",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "goat",
+              "name": {
+                "value": "Ziege",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "turkey",
+              "name": {
+                "value": "Truthahn",
+                "synonyms": [
+                  "Puter"
+                ]
+              }
+            },
+            {
+              "id": "horse",
+              "name": {
+                "value": "Pferd",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "mouse",
+              "name": {
+                "value": "Maus",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "donkey",
+              "name": {
+                "value": "Esel",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "owl",
+              "name": {
+                "value": "Eule",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "frog",
+              "name": {
+                "value": "Frosch",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "bee",
+              "name": {
+                "value": "Biene",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "whale",
+              "name": {
+                "value": "Wal",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "dolphin",
+              "name": {
+                "value": "Delphin",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "elephant",
+              "name": {
+                "value": "Elefant",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "hippo",
+              "name": {
+                "value": "Flusspferd",
+                "synonyms": [
+                  "Nilpferd"
+                ]
+              }
+            },
+            {
+              "id": "hedgehog",
+              "name": {
+                "value": "Igel",
+                "synonyms": [
+                  "Igelchen"
+                ]
+              }
+            }
+          ],
+          "name": "LIST_OF_ITEMS"
+        }
+      ]
+    }
+  }
+}
