@@ -233,6 +233,64 @@
                 "value": "hedgehog",
                 "synonyms": []
               }
+            },
+            {
+              "id": "woodpecker",
+              "name": {
+                "value": "woodpecker",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "tiger",
+              "name": {
+                "value": "tiger",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "monkey",
+              "name": {
+                "value": "monkey",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "snake",
+              "name": {
+                "value": "snake",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "lion",
+              "name": {
+                "value": "lion",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "rhino",
+              "name": {
+                "value": "rhino",
+                "synonyms": [
+                  "rhinoceros"
+                ]
+              }
+            },
+            {
+              "id": "penguin",
+              "name": {
+                "value": "penguin",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "kangaroo",
+              "name": {
+                "value": "kangaroo",
+                "synonyms": []
+              }
             }
           ],
           "name": "LIST_OF_ITEMS"

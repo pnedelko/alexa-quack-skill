@@ -256,6 +256,64 @@
                   "Igelchen"
                 ]
               }
+            },
+            {
+              "id": "woodpecker",
+              "name": {
+                "value": "Specht",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "tiger",
+              "name": {
+                "value": "Tiger",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "monkey",
+              "name": {
+                "value": "Affe",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "snake",
+              "name": {
+                "value": "Schlange",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "lion",
+              "name": {
+                "value": "Löwe",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "rhino",
+              "name": {
+                "value": "Nashorn",
+                "synonyms": [
+                  "Rhinozeros"
+                ]
+              }
+            },
+            {
+              "id": "penguin",
+              "name": {
+                "value": "Pinguin",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "kangaroo",
+              "name": {
+                "value": "Känguru",
+                "synonyms": []
+              }
             }
           ],
           "name": "LIST_OF_ITEMS"
