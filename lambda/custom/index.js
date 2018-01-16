@@ -8,14 +8,15 @@ const Alexa = require('alexa-sdk');
 const APP_ID = process.env.APP_ID;
 const BUCKET = process.env.BUCKET;
 const REGION = process.env.REGION;
+const DYNAMODB_TABLE_NAME = process.env.DYNAMODB_TABLE_NAME;
 
 const languageStrings = {
     'en': {
         translation: {
-            SKILL_NAME: 'Yellow duck',
-            WELCOME_MESSAGE: 'Welcome to %s. You can ask me, how does a horse do? ... Now, what can I help you with?',
-            WELCOME_REPROMPT: 'For instructions on what you can say, please say help me.',
-            HELP_MESSAGE: 'You can ask questions such as, how does a horse do, or, you can say exit...Now, what can I help you with?',
+            SKILL_NAME: 'Yellow Duck',
+            WELCOME_MESSAGE: 'Welcome to %s. You can ask me, what does a dog do? ... Now, what can I help you with?',
+            WELCOME_REPROMPT: 'For instructions on what you can say, please say "help me".',
+            HELP_MESSAGE: 'You can ask questions such as, how does a dog do, or, you can say exit. ... Now, what can I help you with?',
             HELP_REPROMPT: 'Now, what can I help you with?',
             ITEM_NOT_FOUND_MESSAGE: 'I\'m sorry, I don\'t know it at the moment.',
             ITEM_NOT_FOUND_REPROMPT: 'Try something else.'
@@ -44,7 +45,7 @@ const handlers = {
         this.response.speak(this.attributes.speechOutput).listen(this.attributes.repromptSpeech);
         this.emit(':responseReady');
     },
-    'PlayIntent': function() {
+    'PlayIntent': function () {
         const intent = this.event.request.intent;
         const itemSlot = _.get(intent, 'slots.Item', {});
         console.log('Item slot: %j', itemSlot);
@@ -82,6 +83,21 @@ const handlers = {
         this.response.audioPlayerStop();
         this.emit(':responseReady');
     },
+    'AMAZON.ResumeIntent': function () {
+        console.log('Resuming...');
+
+        const slotId = this.attributes.token;
+        const offsetInMilliseconds = this.attributes.offsetInMilliseconds;
+
+        console.log('Token:', slotId);
+        console.log('Offset:', offsetInMilliseconds);
+
+        const path = `https://s3.${REGION}.amazonaws.com/${BUCKET}/${slotId}.mp3`;
+        console.log('File path:', path);
+
+        this.response.audioPlayerPlay('REPLACE_ALL', path, slotId, null, offsetInMilliseconds);
+        this.emit(':responseReady');
+    },
     'AMAZON.HelpIntent': function () {
         this.attributes.speechOutput = this.t('HELP_MESSAGE');
         this.attributes.repromptSpeech = this.t('HELP_REPROMPT');
@@ -94,12 +110,29 @@ const handlers = {
         this.attributes.speechOutput = this.t('HELP_MESSAGE');
         this.attributes.repromptSpeech = this.t('HELP_REPROMPT');
         this.emit(':ask', this.attributes.speechOutput, this.attributes.repromptSpeech);
-    }
+    },
+
+    'PlaybackStarted': function () {
+        console.log('PlaybackStarted event received');
+        this.attributes.token = this.event.request.token;
+        this.attributes.offsetInMilliseconds = this.event.request.offsetInMilliseconds;
+        this.emit(':saveState', true);
+    },
+    'PlaybackFinished': function () {
+        console.log('PlaybackFinished event received');
+    },
+    'PlaybackStopped': function () {
+        console.log('PlaybackStopped event received');
+        this.attributes.token = this.event.request.token;
+        this.attributes.offsetInMilliseconds = this.event.request.offsetInMilliseconds;
+        this.emit(':saveState', true);
+    },
 };
 
 exports.handler = function (event, context) {
     const alexa = Alexa.handler(event, context);
     alexa.appId = APP_ID;
+    alexa.dynamoDBTableName = DYNAMODB_TABLE_NAME;
     // To enable string internationalization (i18n) features, set a resources object.
     alexa.resources = languageStrings;
     alexa.registerHandlers(handlers);
