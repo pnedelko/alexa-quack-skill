@@ -14,22 +14,22 @@ const languageStrings = {
     'en': {
         translation: {
             SKILL_NAME: 'Yellow Duck',
-            WELCOME_MESSAGE: 'Welcome to %s. You can ask me, what does a dog do? ... Now, what can I help you with?',
+            WELCOME_MESSAGE: 'Welcome to %s. You can ask me, "what does a dog do" or "what does a cat say". ... Now, what would you like to ask me?',
             WELCOME_REPROMPT: 'For instructions on what you can say, please say "help me".',
-            HELP_MESSAGE: 'You can ask questions such as, how does a dog do, or, you can say exit. ... Now, what can I help you with?',
-            HELP_REPROMPT: 'Now, what can I help you with?',
-            ITEM_NOT_FOUND_MESSAGE: 'I\'m sorry, I don\'t know it at the moment.',
-            ITEM_NOT_FOUND_REPROMPT: 'Try something else.'
+            HELP_MESSAGE: 'You can ask me, "what does a dog do" or "what does a cat say". ... Now, what would you like to ask me?',
+            HELP_REPROMPT: 'What would you like to ask me?',
+            ITEM_NOT_FOUND_MESSAGE: 'I\'m sorry, I don\'t know it at the moment. Would you like to ask me something else?',
+            ITEM_NOT_FOUND_REPROMPT: 'Would you like to ask me something else?'
         },
     },
     'de': {
         translation: {
             SKILL_NAME: 'Gelbe Ente',
-            WELCOME_MESSAGE: 'Willkommen bei %s. Du kannst beispielsweise die Frage stellen: Wie macht der Hund? ... Nun, womit kann ich dir helfen?',
+            WELCOME_MESSAGE: 'Willkommen bei %s. Du kannst beispielsweise die Frage stellen: "Wie macht der Hund" oder "Wie klingt die Katze". ... Nun, was möchtest du fragen?',
             WELCOME_REPROMPT: 'Wenn du wissen möchtest, was du sagen kannst, sag einfach "Hilf mir".',
-            HELP_MESSAGE: 'Du kannst beispielsweise Fragen stellen wie "Wie macht der Hund". ... Wie kann ich dir helfen?',
-            HELP_REPROMPT: 'Wie kann ich dir helfen?',
-            ITEM_NOT_FOUND_MESSAGE: 'Tut mir leid, ich kenne es nicht.',
+            HELP_MESSAGE: 'Du kannst beispielsweise die Frage stellen: "Wie macht der Hund" oder "Wie klingt die Katze". ... Nun, was möchtest du fragen?',
+            HELP_REPROMPT: 'Was möchtest du fragen?',
+            ITEM_NOT_FOUND_MESSAGE: 'Tut mir leid, ich kenne es nicht. Probier mal was anderes, bitte.',
             ITEM_NOT_FOUND_REPROMPT: 'Probier mal was anderes.'
         },
     },
