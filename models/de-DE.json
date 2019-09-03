@@ -77,14 +77,18 @@
               "id": "pig",
               "name": {
                 "value": "Schwein",
-                "synonyms": []
+                "synonyms": [
+                  "Schweinchen"
+                ]
               }
             },
             {
               "id": "dog",
               "name": {
                 "value": "Hund",
-                "synonyms": []
+                "synonyms": [
+                  "Hundchen"
+                ]
               }
             },
             {
@@ -92,7 +96,8 @@
               "name": {
                 "value": "Katze",
                 "synonyms": [
-                  "Kater"
+                  "Kater",
+                  "Kätzchen"
                 ]
               }
             },
@@ -107,7 +112,9 @@
               "id": "chicken",
               "name": {
                 "value": "Huhn",
-                "synonyms": []
+                "synonyms": [
+                  "Hühnchen"
+                ]
               }
             },
             {
@@ -128,21 +135,27 @@
               "id": "duck",
               "name": {
                 "value": "Ente",
-                "synonyms": []
+                "synonyms": [
+                  "Entchen"
+                ]
               }
             },
             {
               "id": "sheep",
               "name": {
                 "value": "Schaf",
-                "synonyms": []
+                "synonyms": [
+                  "Schäfchen"
+                ]
               }
             },
             {
               "id": "goat",
               "name": {
                 "value": "Ziege",
-                "synonyms": []
+                "synonyms": [
+                  "Ziegchen"
+                ]
               }
             },
             {
@@ -150,7 +163,8 @@
               "name": {
                 "value": "Truthahn",
                 "synonyms": [
-                  "Puter"
+                  "Puter",
+                  "Pute"
                 ]
               }
             },
@@ -158,7 +172,9 @@
               "id": "horse",
               "name": {
                 "value": "Pferd",
-                "synonyms": []
+                "synonyms": [
+                  "Pferdchen"
+                ]
               }
             },
             {
@@ -172,7 +188,9 @@
               "id": "donkey",
               "name": {
                 "value": "Esel",
-                "synonyms": []
+                "synonyms": [
+                  "Eselchen"
+                ]
               }
             },
             {
@@ -186,14 +204,18 @@
               "id": "frog",
               "name": {
                 "value": "Frosch",
-                "synonyms": []
+                "synonyms": [
+                  "Fröschchen"
+                ]
               }
             },
             {
               "id": "bee",
               "name": {
                 "value": "Biene",
-                "synonyms": []
+                "synonyms": [
+                  "Bienchen"
+                ]
               }
             },
             {
@@ -233,6 +255,64 @@
                 "synonyms": [
                   "Igelchen"
                 ]
+              }
+            },
+            {
+              "id": "woodpecker",
+              "name": {
+                "value": "Specht",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "tiger",
+              "name": {
+                "value": "Tiger",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "monkey",
+              "name": {
+                "value": "Affe",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "snake",
+              "name": {
+                "value": "Schlange",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "lion",
+              "name": {
+                "value": "Löwe",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "rhino",
+              "name": {
+                "value": "Nashorn",
+                "synonyms": [
+                  "Rhinozeros"
+                ]
+              }
+            },
+            {
+              "id": "penguin",
+              "name": {
+                "value": "Pinguin",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "kangaroo",
+              "name": {
+                "value": "Känguru",
+                "synonyms": []
               }
             }
           ],

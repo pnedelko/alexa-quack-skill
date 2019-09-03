@@ -5,79 +5,144 @@
         "de-DE": {
           "summary": "Tierlaute und Naturgeräusche für Kinder.",
           "examplePhrases": [
-            "Alexa, frage Gelbe Ente, wie macht eine Ente?",
+            "Alexa, frage Gelbe Ente, wie macht ein Hund?",
             "Wie klingt die Katze?",
             "Welches Geräusch macht ein Hund?"
           ],
+          "keywords": [
+            "Tier",
+            "Geräusch",
+            "Natur",
+            "Kinder",
+            "Katze",
+            "Hund",
+            "Ente",
+            "Zoo"
+          ],
           "name": "Gelbe Ente",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiVS9mcEV4SldMdExFM3FjZ29WMGRLS2pKRkNicFk2Y0l4RjNVZGRXY1dwM2tDUFZ2Yi8xK1NJQ21WcDBVbVdmMWxuNklzVitiVTJUQWxDZEtMSCtFa2E5anFXQi9LbVJqQ0xxTTh6eXU1T2NTK25Ic1M1ZjNvU2pxWWZSQmVWRGgiLCJpdiI6ImczUmtsMmVHUkgrVXdKN3dISjBSTVE9PSIsInYiOjF9",
-          "description": "Lernen Sie zusammen mit ihren Kindern die Geräusche von Tieren und der Natur kennen.\nUm das gewünschte Geräusch zu hören frage mit einem einfachen Satz: „Alexa, frage Gelbe Ente, wie macht eine Ente?“ oder „Was macht der Hund?“.\n\nFehlt Ihnen ein Laut von Ihrem Lieblingstier? Dann kontaktieren Sie mich unter der folgenden E-Mail Adresse pnedelko+alexa-quack-skill@gmail.com\n\nSind sie ein Entwickler? Dieses Projekt ist ein Open-Source Projekt. Machen Sie ein Pull Request: https://github.com/pnedelko/alexa-quack-skill.\nGefällt Ihnen dieses Skill? Bitte hinterlassen Sie mir Ihr positives Feedback.\nBei auftretenden Problemen kontaktieren Sie mich bitte unter pnedelko+alexa-quack-skill@gmail.com.",
+          "description": "Lernen Sie zusammen mit ihren Kindern die Geräusche von Tieren und der Natur kennen.\nUm das gewünschte Geräusch zu hören frage mit einem einfachen Satz: „Alexa, frage Gelbe Ente, wie macht eine Ente?“ oder „Was macht der Hund?“.\n\nProbieren Sie über diese Tiere fragen:\n\nSchwein\nHund\nKatze\nKuh\nHuhn\nHahn\nGans\nEnte\nSchaf\nZiege\nTruthahn\nPferd\nMaus\nEsel\nEule\nFrosch\nBiene\nWal\nDelphin\nElefant\nFlusspferd\nIgel\nSpecht\nTiger\nAffe\nSchlange\nLöwe\nNashorn\nPinguin\nKänguru\n\n\nFehlt Ihnen ein Laut von Ihrem Lieblingstier? Dann kontaktieren Sie mich unter der folgenden E-Mail Adresse pnedelko+alexa-quack-skill@gmail.com\n\nSind sie ein Entwickler? Dieses Projekt ist ein Open-Source Projekt. Machen Sie ein Pull Request: https://github.com/pnedelko/alexa-quack-skill.\nGefällt Ihnen dieses Skill? Bitte hinterlassen Sie mir Ihr positives Feedback.\nBei auftretenden Problemen kontaktieren Sie mich bitte unter pnedelko+alexa-quack-skill@gmail.com.",
           "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoieG1ZaEpIR3I2U1hWK3BPbitXMENLcmRiMlNFTGlOdDM1eEFudndzVXZoKzJRT0puU2VaUWVGRlZYYUxFZDhkUzdTOVRlQXZDTGQ4djZHcUFtcWNJaG1VeVJlZkI5RmF4d040ckNzbWx3SVo1RVZtSy9aS0NvcnFWb0k4ZkpNNjR6M2p2N2t5Vi92eWsvVCtOY2RYM253PT0iLCJpdiI6IkVmL3F2QjZJS0tCem5jYkl0ZkgrS2c9PSIsInYiOjF9"
         },
         "en-US": {
           "summary": "Sounds of animals and nature for children.",
           "examplePhrases": [
-            "Alexa, ask Yellow Duck how does a duck say?",
-            "How does a dog do?",
-            "How does a horse sound like?"
+            "Alexa, ask Yellow Duck what does a dog say?",
+            "What does a cat do?",
+            "What does a horse sound like?"
+          ],
+          "keywords": [
+            "animal",
+            "sound",
+            "nature",
+            "children",
+            "kids",
+            "cat",
+            "dog",
+            "duck",
+            "zoo"
           ],
           "name": "Yellow Duck",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiSDdRNEgxSlkyT2ZOeEo2eUYrT3VmSmcvL3lmendiZzVXYlltSmVsVUx1T2F2QmE0c1RVd1JQa2RBeFdCWDZEek5MZXhhcFg1M1BFVElXY1E1VWoxU2lDR2VaUzJYVHVIVDJzYk9lMU8rSUVKVzB4WEZYMi9TWGhQRzhhT0oxM0IiLCJpdiI6Im9SUDlVZjVsTVZQVjFjQk1nK0QrWGc9PSIsInYiOjF9",
-          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck how does a duck say?\" or \"How does a dog do?\".\n\nDo you miss any sound of your favorite animal? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave your positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
-          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiY1hoNkZnclFPL3BmSjRINVlXRXNabS9tQWZ1K05BQlViZmt4dExFRVZJWWJqOFBabktEQlo5MW9QdU1XWjUxRUwrNU1jcHlFdzVaVjB1bW5WazJNZVplbHlMR2xVK2FNM0djTmtjR2xsQ0tmK1JTVlVoSm9ZS2d1TmRHNXF0NndOUzFZaTZKTUI2T3NQVHFackgzZkJnPT0iLCJpdiI6Imo4eGZUdFRIM09Kakk5UzZ1MnlWSGc9PSIsInYiOjF9"
-        },
-        "en-GB": {
-          "summary": "Sounds of animals and nature for children.",
-          "examplePhrases": [
-            "Alexa, ask Yellow Duck how does a duck say?",
-            "How does a dog do?",
-            "How does a horse sound like?"
-          ],
-          "name": "Yellow Duck",
-          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiSDdRNEgxSlkyT2ZOeEo2eUYrT3VmSmcvL3lmendiZzVXYlltSmVsVUx1T2F2QmE0c1RVd1JQa2RBeFdCWDZEek5MZXhhcFg1M1BFVElXY1E1VWoxU2lDR2VaUzJYVHVIVDJzYk9lMU8rSUVKVzB4WEZYMi9TWGhQRzhhT0oxM0IiLCJpdiI6Im9SUDlVZjVsTVZQVjFjQk1nK0QrWGc9PSIsInYiOjF9",
-          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck how does a duck say?\" or \"How does a dog do?\".\n\nDo you miss any sound of your favorite animal? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave your positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
+          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck what does a cat say?\" or \"How does a dog do?\".\n\nTry to ask about these animals:\npig\ndog\ncat\ncow\nchicken\nrooster\ngoose\nduck\nsheep\ngoat\nturkey\nhorse\nmouse\ndonkey\nowl\nfrog\nbee\nwhale\ndolphin\nelephant\nhippo\nhedgehog\nwoodpecker\ntiger\nmonkey\nsnake\nlion\nrhino\npenguin\nkangaroo\n\nAre you missing any sounds of your favorite animals? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave a positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
           "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiY1hoNkZnclFPL3BmSjRINVlXRXNabS9tQWZ1K05BQlViZmt4dExFRVZJWWJqOFBabktEQlo5MW9QdU1XWjUxRUwrNU1jcHlFdzVaVjB1bW5WazJNZVplbHlMR2xVK2FNM0djTmtjR2xsQ0tmK1JTVlVoSm9ZS2d1TmRHNXF0NndOUzFZaTZKTUI2T3NQVHFackgzZkJnPT0iLCJpdiI6Imo4eGZUdFRIM09Kakk5UzZ1MnlWSGc9PSIsInYiOjF9"
         },
         "en-CA": {
           "summary": "Sounds of animals and nature for children.",
           "examplePhrases": [
-            "Alexa, ask Yellow Duck how does a duck say?",
-            "How does a dog do?",
-            "How does a horse sound like?"
+            "Alexa, ask Yellow Duck what does a dog say?",
+            "What does a cat do?",
+            "What does a horse sound like?"
+          ],
+          "keywords": [
+            "animal",
+            "sound",
+            "nature",
+            "children",
+            "kids",
+            "cat",
+            "dog",
+            "duck",
+            "zoo"
           ],
           "name": "Yellow Duck",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiSDdRNEgxSlkyT2ZOeEo2eUYrT3VmSmcvL3lmendiZzVXYlltSmVsVUx1T2F2QmE0c1RVd1JQa2RBeFdCWDZEek5MZXhhcFg1M1BFVElXY1E1VWoxU2lDR2VaUzJYVHVIVDJzYk9lMU8rSUVKVzB4WEZYMi9TWGhQRzhhT0oxM0IiLCJpdiI6Im9SUDlVZjVsTVZQVjFjQk1nK0QrWGc9PSIsInYiOjF9",
-          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck how does a duck say?\" or \"How does a dog do?\".\n\nDo you miss any sound of your favorite animal? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave your positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
+          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck what does a cat say?\" or \"How does a dog do?\".\n\nTry to ask about these animals:\npig\ndog\ncat\ncow\nchicken\nrooster\ngoose\nduck\nsheep\ngoat\nturkey\nhorse\nmouse\ndonkey\nowl\nfrog\nbee\nwhale\ndolphin\nelephant\nhippo\nhedgehog\nwoodpecker\ntiger\nmonkey\nsnake\nlion\nrhino\npenguin\nkangaroo\n\nAre you missing any sounds of your favorite animals? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave a positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
           "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiY1hoNkZnclFPL3BmSjRINVlXRXNabS9tQWZ1K05BQlViZmt4dExFRVZJWWJqOFBabktEQlo5MW9QdU1XWjUxRUwrNU1jcHlFdzVaVjB1bW5WazJNZVplbHlMR2xVK2FNM0djTmtjR2xsQ0tmK1JTVlVoSm9ZS2d1TmRHNXF0NndOUzFZaTZKTUI2T3NQVHFackgzZkJnPT0iLCJpdiI6Imo4eGZUdFRIM09Kakk5UzZ1MnlWSGc9PSIsInYiOjF9"
         },
         "en-IN": {
           "summary": "Sounds of animals and nature for children.",
           "examplePhrases": [
-            "Alexa, ask Yellow Duck how does a duck say?",
-            "How does a dog do?",
-            "How does a horse sound like?"
+            "Alexa, ask Yellow Duck what does a dog say?",
+            "What does a cat do?",
+            "What does a horse sound like?"
+          ],
+          "keywords": [
+            "animal",
+            "sound",
+            "nature",
+            "children",
+            "kids",
+            "cat",
+            "dog",
+            "duck",
+            "zoo"
           ],
           "name": "Yellow Duck",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiSDdRNEgxSlkyT2ZOeEo2eUYrT3VmSmcvL3lmendiZzVXYlltSmVsVUx1T2F2QmE0c1RVd1JQa2RBeFdCWDZEek5MZXhhcFg1M1BFVElXY1E1VWoxU2lDR2VaUzJYVHVIVDJzYk9lMU8rSUVKVzB4WEZYMi9TWGhQRzhhT0oxM0IiLCJpdiI6Im9SUDlVZjVsTVZQVjFjQk1nK0QrWGc9PSIsInYiOjF9",
-          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck how does a duck say?\" or \"How does a dog do?\".\n\nDo you miss any sound of your favorite animal? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave your positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
+          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck what does a cat say?\" or \"How does a dog do?\".\n\nTry to ask about these animals:\npig\ndog\ncat\ncow\nchicken\nrooster\ngoose\nduck\nsheep\ngoat\nturkey\nhorse\nmouse\ndonkey\nowl\nfrog\nbee\nwhale\ndolphin\nelephant\nhippo\nhedgehog\nwoodpecker\ntiger\nmonkey\nsnake\nlion\nrhino\npenguin\nkangaroo\n\nAre you missing any sounds of your favorite animals? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave a positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
           "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiY1hoNkZnclFPL3BmSjRINVlXRXNabS9tQWZ1K05BQlViZmt4dExFRVZJWWJqOFBabktEQlo5MW9QdU1XWjUxRUwrNU1jcHlFdzVaVjB1bW5WazJNZVplbHlMR2xVK2FNM0djTmtjR2xsQ0tmK1JTVlVoSm9ZS2d1TmRHNXF0NndOUzFZaTZKTUI2T3NQVHFackgzZkJnPT0iLCJpdiI6Imo4eGZUdFRIM09Kakk5UzZ1MnlWSGc9PSIsInYiOjF9"
         },
         "en-AU": {
           "summary": "Sounds of animals and nature for children.",
           "examplePhrases": [
-            "Alexa, ask Yellow Duck how does a duck say?",
-            "How does a dog do?",
-            "How does a horse sound like?"
+            "Alexa, ask Yellow Duck what does a dog say?",
+            "What does a cat do?",
+            "What does a horse sound like?"
+          ],
+          "keywords": [
+            "animal",
+            "sound",
+            "nature",
+            "children",
+            "kids",
+            "cat",
+            "dog",
+            "duck",
+            "zoo"
           ],
           "name": "Yellow Duck",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiSDdRNEgxSlkyT2ZOeEo2eUYrT3VmSmcvL3lmendiZzVXYlltSmVsVUx1T2F2QmE0c1RVd1JQa2RBeFdCWDZEek5MZXhhcFg1M1BFVElXY1E1VWoxU2lDR2VaUzJYVHVIVDJzYk9lMU8rSUVKVzB4WEZYMi9TWGhQRzhhT0oxM0IiLCJpdiI6Im9SUDlVZjVsTVZQVjFjQk1nK0QrWGc9PSIsInYiOjF9",
-          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck how does a duck say?\" or \"How does a dog do?\".\n\nDo you miss any sound of your favorite animal? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave your positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
+          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck what does a cat say?\" or \"How does a dog do?\".\n\nTry to ask about these animals:\npig\ndog\ncat\ncow\nchicken\nrooster\ngoose\nduck\nsheep\ngoat\nturkey\nhorse\nmouse\ndonkey\nowl\nfrog\nbee\nwhale\ndolphin\nelephant\nhippo\nhedgehog\nwoodpecker\ntiger\nmonkey\nsnake\nlion\nrhino\npenguin\nkangaroo\n\nAre you missing any sounds of your favorite animals? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave a positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiY1hoNkZnclFPL3BmSjRINVlXRXNabS9tQWZ1K05BQlViZmt4dExFRVZJWWJqOFBabktEQlo5MW9QdU1XWjUxRUwrNU1jcHlFdzVaVjB1bW5WazJNZVplbHlMR2xVK2FNM0djTmtjR2xsQ0tmK1JTVlVoSm9ZS2d1TmRHNXF0NndOUzFZaTZKTUI2T3NQVHFackgzZkJnPT0iLCJpdiI6Imo4eGZUdFRIM09Kakk5UzZ1MnlWSGc9PSIsInYiOjF9"
+        },
+        "en-GB": {
+          "summary": "Sounds of animals and nature for children.",
+          "examplePhrases": [
+            "Alexa, ask Yellow Duck what does a dog say?",
+            "What does a cat do?",
+            "What does a horse sound like?"
+          ],
+          "keywords": [
+            "animal",
+            "sound",
+            "nature",
+            "children",
+            "kids",
+            "cat",
+            "dog",
+            "duck",
+            "zoo"
+          ],
+          "name": "Yellow Duck",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiSDdRNEgxSlkyT2ZOeEo2eUYrT3VmSmcvL3lmendiZzVXYlltSmVsVUx1T2F2QmE0c1RVd1JQa2RBeFdCWDZEek5MZXhhcFg1M1BFVElXY1E1VWoxU2lDR2VaUzJYVHVIVDJzYk9lMU8rSUVKVzB4WEZYMi9TWGhQRzhhT0oxM0IiLCJpdiI6Im9SUDlVZjVsTVZQVjFjQk1nK0QrWGc9PSIsInYiOjF9",
+          "description": "Learn together with your kids the sounds of many animals and the surrounding world.\nAsk for a sound using a simple phrase: \"Alexa, ask Yellow Duck what does a cat say?\" or \"How does a dog do?\".\n\nTry to ask about these animals:\npig\ndog\ncat\ncow\nchicken\nrooster\ngoose\nduck\nsheep\ngoat\nturkey\nhorse\nmouse\ndonkey\nowl\nfrog\nbee\nwhale\ndolphin\nelephant\nhippo\nhedgehog\nwoodpecker\ntiger\nmonkey\nsnake\nlion\nrhino\npenguin\nkangaroo\n\nAre you missing any sounds of your favorite animals? Contact me at pnedelko+alexa-quack-skill@gmail.com.\nAre you a developer? This project is open-source. I will be happy to get a Pull Request from you: https://github.com/pnedelko/alexa-quack-skill.\n\nDo you like the skill? Please leave a positive comment.\nAre you experiencing any problems? Please contact me at pnedelko+alexa-quack-skill@gmail.com.",
           "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.bb2d6658-6452-4096-b2d3-f844a2f3c914/images/eyJkIjoiY1hoNkZnclFPL3BmSjRINVlXRXNabS9tQWZ1K05BQlViZmt4dExFRVZJWWJqOFBabktEQlo5MW9QdU1XWjUxRUwrNU1jcHlFdzVaVjB1bW5WazJNZVplbHlMR2xVK2FNM0djTmtjR2xsQ0tmK1JTVlVoSm9ZS2d1TmRHNXF0NndOUzFZaTZKTUI2T3NQVHFackgzZkJnPT0iLCJpdiI6Imo4eGZUdFRIM09Kakk5UzZ1MnlWSGc9PSIsInYiOjF9"
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Please follow the example phrases.",
-      "category": "CHILDRENS_MUSIC_AND_AUDIO",
+      "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
     },
     "apis": {
@@ -97,7 +162,7 @@
       "allowsPurchases": false,
       "isExportCompliant": true,
       "containsAds": false,
-      "isChildDirected": true,
+      "isChildDirected": false,
       "usesPersonalInfo": false
     }
   }

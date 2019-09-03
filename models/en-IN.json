@@ -40,26 +40,22 @@
             "a {Item}",
             "an {Item}",
             "the {Item}",
-            "the sound of a {Item}",
-            "the sound of the {Item}",
             "a sound of a {Item}",
             "a sound of the {Item}",
-            "how does {Item} say",
-            "how does a {Item} say",
-            "how does an {Item} say",
-            "how does the {Item} say",
-            "how does {Item} do",
-            "how does a {Item} do",
-            "how does an {Item} do",
-            "how does the {Item} do",
-            "how does {Item} sound",
-            "how does a {Item} sound",
-            "how does an {Item} sound",
-            "how does the {Item} sound",
-            "what does {Item}",
-            "what does a {Item}",
-            "what does an {Item}",
-            "what does the {Item}"
+            "the sound of a {Item}",
+            "the sound of the {Item}",
+            "what does {Item} say",
+            "what does a {Item} say",
+            "what does an {Item} say",
+            "what does the {Item} say",
+            "what does {Item} sound like",
+            "what does a {Item} sound like",
+            "what does an {Item} sound like",
+            "what does the {Item} sound like",
+            "what does {Item} do",
+            "what does a {Item} do",
+            "what does an {Item} do",
+            "what does the {Item} do"
           ]
         }
       ],
@@ -70,35 +66,51 @@
               "id": "pig",
               "name": {
                 "value": "pig",
-                "synonyms": []
+                "synonyms": [
+                  "piglet",
+                  "hog"
+                ]
               }
             },
             {
               "id": "dog",
               "name": {
                 "value": "dog",
-                "synonyms": []
+                "synonyms": [
+                  "hound",
+                  "puppy",
+                  "kanine"
+                ]
               }
             },
             {
               "id": "cat",
               "name": {
                 "value": "cat",
-                "synonyms": []
+                "synonyms": [
+                  "kitten",
+                  "feline"
+                ]
               }
             },
             {
               "id": "cow",
               "name": {
                 "value": "cow",
-                "synonyms": []
+                "synonyms": [
+                  "bull",
+                  "calf"
+                ]
               }
             },
             {
               "id": "chicken",
               "name": {
                 "value": "chicken",
-                "synonyms": []
+                "synonyms": [
+                  "han",
+                  "chicklet"
+                ]
               }
             },
             {
@@ -210,13 +222,73 @@
               "id": "hippo",
               "name": {
                 "value": "hippo",
-                "synonyms": []
+                "synonyms": [
+                  "hippopotamus"
+                ]
               }
             },
             {
               "id": "hedgehog",
               "name": {
                 "value": "hedgehog",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "woodpecker",
+              "name": {
+                "value": "woodpecker",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "tiger",
+              "name": {
+                "value": "tiger",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "monkey",
+              "name": {
+                "value": "monkey",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "snake",
+              "name": {
+                "value": "snake",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "lion",
+              "name": {
+                "value": "lion",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "rhino",
+              "name": {
+                "value": "rhino",
+                "synonyms": [
+                  "rhinoceros"
+                ]
+              }
+            },
+            {
+              "id": "penguin",
+              "name": {
+                "value": "penguin",
+                "synonyms": []
+              }
+            },
+            {
+              "id": "kangaroo",
+              "name": {
+                "value": "kangaroo",
                 "synonyms": []
               }
             }
